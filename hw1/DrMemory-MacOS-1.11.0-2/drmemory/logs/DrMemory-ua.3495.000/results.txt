@@ -1,0 +1,259 @@
+Dr. Memory version 1.11.0 build 2 built on Aug 29 2016 02:37:30
+Dr. Memory results for pid 3495: "ua"
+Recorded 3 suppression(s) from default /Users/Ulysses_Hu/Desktop/DrMemory-MacOS-1.11.0-2/bin/suppress-default.txt
+
+WARNING: application is missing line number information.
+
+Error #1: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_simple_salloc          
+# 1 libsystem_c.dylib!__assert_rtn     
+# 2 SimpleTests
+# 3 main
+
+Error #2: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_simple_salloc          
+# 1 libsystem_c.dylib!__assert_rtn     
+# 2 SimpleTests
+# 3 main
+
+Error #3: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_simple_salloc          
+# 1 libsystem_c.dylib!__assert_rtn     
+# 2 SimpleTests
+# 3 main
+
+Error #4: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_simple_salloc          
+# 1 libsystem_c.dylib!__assert_rtn     
+# 2 SimpleTests
+# 3 main
+
+Error #5: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!setjmp                  
+# 1 libsystem_platform.dylib!_simple_vesprintf       
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 SimpleTests
+# 5 main
+
+Error #6: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!setjmp                  
+# 1 libsystem_platform.dylib!_simple_vesprintf       
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 SimpleTests
+# 5 main
+
+Error #7: UNADDRESSABLE ACCESS: writing 2 byte(s)
+# 0 libsystem_platform.dylib!_setjmp                 
+# 1 libsystem_platform.dylib!_simple_vesprintf       
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 SimpleTests
+# 5 main
+
+Error #8: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_setjmp                 
+# 1 libsystem_platform.dylib!_simple_vesprintf       
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 SimpleTests
+# 5 main
+
+Error #9: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_setjmp                 
+# 1 libsystem_platform.dylib!_simple_vesprintf       
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 SimpleTests
+# 5 main
+
+Error #10: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_setjmp                 
+# 1 libsystem_platform.dylib!_simple_vesprintf       
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 SimpleTests
+# 5 main
+
+Error #11: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_setjmp                 
+# 1 libsystem_platform.dylib!_simple_vesprintf       
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 SimpleTests
+# 5 main
+
+Error #12: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_setjmp                 
+# 1 libsystem_platform.dylib!_simple_vesprintf       
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 SimpleTests
+# 5 main
+
+Error #13: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_setjmp                 
+# 1 libsystem_platform.dylib!_simple_vesprintf       
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 SimpleTests
+# 5 main
+
+Error #14: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_setjmp                 
+# 1 libsystem_platform.dylib!_simple_vesprintf       
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 SimpleTests
+# 5 main
+
+Error #15: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_vesprintf       
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 SimpleTests
+# 5 main
+
+Error #16: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_vesprintf       
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 SimpleTests
+# 5 main
+
+Error #17: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_vesprintf       
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 SimpleTests
+# 5 main
+
+Error #18: UNADDRESSABLE ACCESS: writing 1 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_vesprintf       
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 SimpleTests
+# 5 main
+
+Error #19: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_vesprintf       
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 SimpleTests
+# 5 main
+
+Error #20: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_vesprintf       
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 SimpleTests
+# 5 main
+
+Error #21: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_vesprintf       
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 SimpleTests
+# 5 main
+
+Error #22: UNADDRESSABLE ACCESS: writing 1 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_vesprintf       
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 SimpleTests
+# 5 main
+
+Error #23: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!dec                     
+# 1 libsystem_platform.dylib!__simple_bprintf        
+# 2 libsystem_platform.dylib!_simple_vesprintf       
+# 3 libsystem_platform.dylib!_simple_sprintf         
+# 4 libsystem_c.dylib!__assert_rtn     
+# 5 SimpleTests
+# 6 main
+
+Error #24: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!dec                     
+# 1 libsystem_platform.dylib!__simple_bprintf        
+# 2 libsystem_platform.dylib!_simple_vesprintf       
+# 3 libsystem_platform.dylib!_simple_sprintf         
+# 4 libsystem_c.dylib!__assert_rtn     
+# 5 SimpleTests
+# 6 main
+
+Error #25: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!dec                     
+# 1 libsystem_platform.dylib!__simple_bprintf        
+# 2 libsystem_platform.dylib!_simple_vesprintf       
+# 3 libsystem_platform.dylib!_simple_sprintf         
+# 4 libsystem_c.dylib!__assert_rtn     
+# 5 SimpleTests
+# 6 main
+
+Error #26: UNADDRESSABLE ACCESS: writing 1 byte(s)
+# 0 libsystem_platform.dylib!dec                     
+# 1 libsystem_platform.dylib!__simple_bprintf        
+# 2 libsystem_platform.dylib!_simple_vesprintf       
+# 3 libsystem_platform.dylib!_simple_sprintf         
+# 4 libsystem_c.dylib!__assert_rtn     
+# 5 SimpleTests
+# 6 main
+
+Error #27: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_vesprintf       
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 SimpleTests
+# 5 main
+
+Error #28: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_vesprintf       
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 SimpleTests
+# 5 main
+
+Error #29: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_vesprintf       
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 SimpleTests
+# 5 main
+
+Error #30: UNADDRESSABLE ACCESS: writing 1 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf        
+# 1 libsystem_platform.dylib!_simple_vesprintf       
+# 2 libsystem_platform.dylib!_simple_sprintf         
+# 3 libsystem_c.dylib!__assert_rtn     
+# 4 SimpleTests
+# 5 main
+
+Error #31: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!_simple_string          
+# 1 libsystem_c.dylib!__assert_rtn     
+# 2 SimpleTests
+# 3 main
+
+Error #32: UNADDRESSABLE ACCESS: writing 1 byte(s)
+# 0 libsystem_platform.dylib!_simple_string          
+# 1 libsystem_c.dylib!__assert_rtn     
+# 2 SimpleTests
+# 3 main
+
+Error #33: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!_simple_string          
+# 1 libsystem_c.dylib!__assert_rtn     
+# 2 SimpleTests
+# 3 main

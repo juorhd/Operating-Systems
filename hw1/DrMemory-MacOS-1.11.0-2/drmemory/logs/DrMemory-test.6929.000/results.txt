@@ -1,0 +1,29 @@
+Dr. Memory version 1.11.0 build 2 built on Aug 29 2016 02:37:30
+Dr. Memory results for pid 6929: "test"
+Recorded 3 suppression(s) from default /Users/Ulysses_Hu/Desktop/DrMemory-MacOS-1.11.0-2/bin/suppress-default.txt
+
+Error #1: UNINITIALIZED READ: reading register ecx
+# 0 Searchsolution               [/Users/Ulysses_Hu/desktop/hw6/main.cpp:118]
+# 1 Searchsolution               [/Users/Ulysses_Hu/desktop/hw6/main.cpp:131]
+# 2 Searchsolution               [/Users/Ulysses_Hu/desktop/hw6/main.cpp:131]
+# 3 Searchsolution               [/Users/Ulysses_Hu/desktop/hw6/main.cpp:131]
+# 4 Searchsolution               [/Users/Ulysses_Hu/desktop/hw6/main.cpp:131]
+# 5 Searchsolution               [/Users/Ulysses_Hu/desktop/hw6/main.cpp:131]
+# 6 main                         [/Users/Ulysses_Hu/desktop/hw6/main.cpp:207]
+
+===========================================================================
+FINAL SUMMARY:
+
+DUPLICATE ERROR COUNTS:
+	Error #   1:      2
+
+SUPPRESSIONS USED:
+
+ERRORS FOUND:
+      0 unique,     0 total unaddressable access(es)
+      1 unique,     2 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total warning(s)
+      0 unique,     0 total,      0 byte(s) of leak(s)
+      0 unique,     0 total,      0 byte(s) of possible leak(s)
+Details: /Users/Ulysses_Hu/Desktop/DrMemory-MacOS-1.11.0-2/drmemory/logs/DrMemory-test.6929.000/results.txt

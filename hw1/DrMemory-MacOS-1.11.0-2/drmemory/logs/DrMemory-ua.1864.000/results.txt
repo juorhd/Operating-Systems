@@ -1,0 +1,44 @@
+Dr. Memory version 1.11.0 build 2 built on Aug 29 2016 02:37:30
+Dr. Memory results for pid 1864: "ua"
+Recorded 3 suppression(s) from default /Users/Ulysses_Hu/Desktop/DrMemory-MacOS-1.11.0-2/bin/suppress-default.txt
+
+Error #1: POSSIBLE LEAK 28 bytes 
+# 0 replace_operator_new_array               [/drmemory_package/common/alloc_replace.c:2928]
+# 1 UndoArray<>::create
+# 2 UndoArray<>::UndoArray
+# 3 UndoArray<>::UndoArray
+# 4 SimpleTests
+# 5 main
+
+Error #2: LEAK 28 direct bytes + 6 indirect bytes
+# 0 replace_operator_new_array               [/drmemory_package/common/alloc_replace.c:2928]
+# 1 UndoArray<>::create
+# 2 UndoArray<>::UndoArray
+# 3 UndoArray<>::UndoArray
+# 4 SimpleTests
+# 5 main
+
+Error #3: LEAK 0 bytes 
+# 0 replace_operator_new_array               [/drmemory_package/common/alloc_replace.c:2928]
+# 1 UndoArray<>::create
+# 2 UndoArray<>::UndoArray
+# 3 UndoArray<>::UndoArray
+# 4 SimpleTests
+# 5 main
+
+===========================================================================
+FINAL SUMMARY:
+
+DUPLICATE ERROR COUNTS:
+	Error #   3:      3
+
+SUPPRESSIONS USED:
+
+ERRORS FOUND:
+      0 unique,     0 total unaddressable access(es)
+      0 unique,     0 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total warning(s)
+      2 unique,     4 total,     34 byte(s) of leak(s)
+      1 unique,     1 total,     28 byte(s) of possible leak(s)
+Details: /Users/Ulysses_Hu/Desktop/DrMemory-MacOS-1.11.0-2/drmemory/logs/DrMemory-ua.1864.000/results.txt

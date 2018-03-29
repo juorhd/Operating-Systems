@@ -1,0 +1,46 @@
+# File for suppressing errors found in pid 27657: "test"
+
+# Suppression for Error #1
+LEAK
+name=Error #1 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_operator_new
+test!main
+
+## Mod+offs-style suppression for Error #1:
+LEAK
+name=Error #1 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0x31800>
+<test+0x151f>
+
+# Suppression for Error #2
+LEAK
+name=Error #2 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_operator_new_array
+test!Balloon::Balloon
+test!Balloon::Balloon
+test!main
+
+## Mod+offs-style suppression for Error #2:
+LEAK
+name=Error #2 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0x31b00>
+<test+0x27a0>
+<test+0x2334>
+<test+0x1839>
+
+# Suppression for Error #3
+POSSIBLE LEAK
+name=Error #3 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_operator_new_array
+test!Balloon::Balloon
+test!Balloon::Balloon
+test!main
+
+## Mod+offs-style suppression for Error #3:
+POSSIBLE LEAK
+name=Error #3 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0x31b00>
+<test+0x27a0>
+<test+0x2334>
+<test+0x197f>
+

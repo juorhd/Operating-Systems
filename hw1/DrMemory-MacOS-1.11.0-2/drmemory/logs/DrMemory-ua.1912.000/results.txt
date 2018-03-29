@@ -1,0 +1,45 @@
+Dr. Memory version 1.11.0 build 2 built on Aug 29 2016 02:37:30
+Dr. Memory results for pid 1912: "ua"
+Recorded 3 suppression(s) from default /Users/Ulysses_Hu/Desktop/DrMemory-MacOS-1.11.0-2/bin/suppress-default.txt
+
+WARNING: application is missing line number information.
+
+Error #1: UNINITIALIZED READ: reading 4 byte(s)
+# 0 UndoArray<>::delete_
+# 1 UndoArray<>::operator=
+# 2 UndoArray<>::UndoArray
+# 3 UndoArray<>::UndoArray
+# 4 SimpleTests
+# 5 main
+
+Error #2: UNINITIALIZED READ: reading register ecx
+# 0 UndoArray<>::delete_
+# 1 UndoArray<>::operator=
+# 2 UndoArray<>::UndoArray
+# 3 UndoArray<>::UndoArray
+# 4 SimpleTests
+# 5 main
+
+Error #3: UNINITIALIZED READ: reading register ecx
+# 0 UndoArray<>::delete_
+# 1 UndoArray<>::operator=
+# 2 UndoArray<>::UndoArray
+# 3 UndoArray<>::UndoArray
+# 4 SimpleTests
+# 5 main
+
+===========================================================================
+FINAL SUMMARY:
+
+DUPLICATE ERROR COUNTS:
+
+SUPPRESSIONS USED:
+
+ERRORS FOUND:
+      0 unique,     0 total unaddressable access(es)
+      3 unique,     3 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total warning(s)
+      0 unique,     0 total,      0 byte(s) of leak(s)
+      0 unique,     0 total,      0 byte(s) of possible leak(s)
+Details: /Users/Ulysses_Hu/Desktop/DrMemory-MacOS-1.11.0-2/drmemory/logs/DrMemory-ua.1912.000/results.txt

@@ -1,0 +1,132 @@
+process=8919, parent=6691
+Dr. Memory version 1.11.0 build 2 built on Aug 29 2016 02:37:30
+start time: 0:00:00.000 == 00:00:00.000 01/01/1601
+Recorded 3 suppression(s) from default /Users/Ulysses_Hu/Desktop/DrMemory-MacOS-1.11.0-2/bin/suppress-default.txt
+new thread #0 id=5405931
+
+module load event: "test.exe" 0x000fa000-0x0011b000 modid: 1 /Users/Ulysses_Hu/Desktop/hw4c/test.exe
+
+module load event: "libdrpreload.dylib" 0x0011e000-0x0012f000 modid: 2 /Users/Ulysses_Hu/Desktop/DrMemory-MacOS-1.11.0-2/dynamorio/lib32/release/libdrpreload.dylib
+
+module load event: "dyld" 0x0014c000-0x001c4000 modid: 3 /usr/lib/dyld
+WARNING: assuming operator new is non-placement in dyld @0x0016bde0
+WARNING: assuming operator new[] is non-placement in dyld @0x0016be64
+
+module load event: "libdynamorio.dylib" 0x001c4000-0x0035b000 modid: 4 /Users/Ulysses_Hu/Desktop/DrMemory-MacOS-1.11.0-2/dynamorio/lib32/release/libdynamorio.dylib
+
+module load event: "libdrmemorylib.1.11.0.dylib" 0x0035b000-0x004cc000 modid: 5 /Users/Ulysses_Hu/Desktop/DrMemory-MacOS-1.11.0-2/bin/release/libdrmemorylib.dylib
+
+module load event: "libSystem.B.dylib" 0x9e28f000-0xac6b4000 modid: 6 /usr/lib/libSystem.B.dylib
+
+module load event: "libauto.dylib" 0x9e3d9000-0xac6b4000 modid: 7 /usr/lib/libauto.dylib
+
+module load event: "libc++.1.dylib" 0x9e3f9000-0xac6b4000 modid: 8 /usr/lib/libc++.1.dylib
+WARNING: assuming operator new[] is non-placement in libc++.1.dylib @0x9e4117a7
+WARNING: assuming operator new[] is non-placement in libc++.1.dylib @0x9e4117c3
+WARNING: assuming operator new is non-placement in libc++.1.dylib @0x9e4117df
+WARNING: assuming operator new is non-placement in libc++.1.dylib @0x9e4117fb
+WARNING: assuming operator delete is non-placement in libc++.1.dylib @0x9e436994
+WARNING: assuming operator delete[] is non-placement in libc++.1.dylib @0x9e43699d
+
+module load event: "libc++abi.dylib" 0x9e450000-0xac6b4000 modid: 9 /usr/lib/libc++abi.dylib
+WARNING: assuming operator new is non-placement in libc++abi.dylib @0x9e46e620
+WARNING: assuming operator new is non-placement in libc++abi.dylib @0x9e46e6a3
+WARNING: assuming operator new[] is non-placement in libc++abi.dylib @0x9e46e6e4
+WARNING: assuming operator new[] is non-placement in libc++abi.dylib @0x9e46e6e9
+
+module load event: "libobjc.A.dylib" 0x9ecfa000-0xac6b4000 modid: 10 /usr/lib/libobjc.A.dylib
+
+module load event: "libcache.dylib" 0x9f4a1000-0xac6b4000 modid: 11 /usr/lib/system/libcache.dylib
+
+module load event: "libcommonCrypto.dylib" 0x9f4a6000-0xac6b4000 modid: 12 /usr/lib/system/libcommonCrypto.dylib
+
+module load event: "libcompiler_rt.dylib" 0x9f4b1000-0xac6b4000 modid: 13 /usr/lib/system/libcompiler_rt.dylib
+
+module load event: "libcopyfile.dylib" 0x9f4b7000-0xac6b4000 modid: 14 /usr/lib/system/libcopyfile.dylib
+
+module load event: "libcorecrypto.dylib" 0x9f4c0000-0xac6b4000 modid: 15 /usr/lib/system/libcorecrypto.dylib
+
+module load event: "libdispatch.dylib" 0x9f526000-0xac6b4000 modid: 16 /usr/lib/system/libdispatch.dylib
+
+module load event: "libdyld.dylib" 0x9f555000-0xac6b4000 modid: 17 /usr/lib/system/libdyld.dylib
+
+module load event: "libkeymgr.dylib" 0x9f55b000-0xac6b4000 modid: 18 /usr/lib/system/libkeymgr.dylib
+
+module load event: "liblaunch.dylib" 0x9f569000-0xac6b4000 modid: 19 /usr/lib/system/liblaunch.dylib
+
+module load event: "libmacho.dylib" 0x9f56a000-0xac6b4000 modid: 20 /usr/lib/system/libmacho.dylib
+
+module load event: "libquarantine.dylib" 0x9f571000-0xac6b4000 modid: 21 /usr/lib/system/libquarantine.dylib
+
+module load event: "libremovefile.dylib" 0x9f574000-0xac6b4000 modid: 22 /usr/lib/system/libremovefile.dylib
+
+module load event: "libsystem_asl.dylib" 0x9f576000-0xac6b4000 modid: 23 /usr/lib/system/libsystem_asl.dylib
+
+module load event: "libsystem_blocks.dylib" 0x9f58e000-0xac6b4000 modid: 24 /usr/lib/system/libsystem_blocks.dylib
+
+module load event: "libsystem_c.dylib" 0x9f58f000-0xac6b4000 modid: 25 /usr/lib/system/libsystem_c.dylib
+
+module load event: "libsystem_configuration.dylib" 0x9f61e000-0xac6b4000 modid: 26 /usr/lib/system/libsystem_configuration.dylib
+
+module load event: "libsystem_coreservices.dylib" 0x9f622000-0xac6b4000 modid: 27 /usr/lib/system/libsystem_coreservices.dylib
+
+module load event: "libsystem_coretls.dylib" 0x9f626000-0xac6b4000 modid: 28 /usr/lib/system/libsystem_coretls.dylib
+
+module load event: "libsystem_dnssd.dylib" 0x9f63f000-0xac6b4000 modid: 29 /usr/lib/system/libsystem_dnssd.dylib
+
+module load event: "libsystem_info.dylib" 0x9f646000-0xac6b4000 modid: 30 /usr/lib/system/libsystem_info.dylib
+
+module load event: "libsystem_kernel.dylib" 0x9f66e000-0xac6b4000 modid: 31 /usr/lib/system/libsystem_kernel.dylib
+
+module load event: "libsystem_m.dylib" 0x9f690000-0xac6b4000 modid: 32 /usr/lib/system/libsystem_m.dylib
+
+module load event: "libsystem_malloc.dylib" 0x9f6dd000-0xac6b4000 modid: 33 /usr/lib/system/libsystem_malloc.dylib
+
+module load event: "libsystem_network.dylib" 0x9f6f8000-0xac6b4000 modid: 34 /usr/lib/system/libsystem_network.dylib
+
+module load event: "libsystem_networkextension.dylib" 0x9f74c000-0xac6b4000 modid: 35 /usr/lib/system/libsystem_networkextension.dylib
+
+module load event: "libsystem_notify.dylib" 0x9f756000-0xac6b4000 modid: 36 /usr/lib/system/libsystem_notify.dylib
+
+module load event: "libsystem_platform.dylib" 0x9f75f000-0xac6b4000 modid: 37 /usr/lib/system/libsystem_platform.dylib
+
+module load event: "libsystem_pthread.dylib" 0x9f766000-0xac6b4000 modid: 38 /usr/lib/system/libsystem_pthread.dylib
+
+module load event: "libsystem_sandbox.dylib" 0x9f770000-0xac6b4000 modid: 39 /usr/lib/system/libsystem_sandbox.dylib
+
+module load event: "libsystem_secinit.dylib" 0x9f774000-0xac6b4000 modid: 40 /usr/lib/system/libsystem_secinit.dylib
+
+module load event: "libsystem_symptoms.dylib" 0x9f776000-0xac6b4000 modid: 41 /usr/lib/system/libsystem_symptoms.dylib
+
+module load event: "libsystem_trace.dylib" 0x9f77e000-0xac6b4000 modid: 42 /usr/lib/system/libsystem_trace.dylib
+
+module load event: "libunwind.dylib" 0x9f79f000-0xac6b4000 modid: 43 /usr/lib/system/libunwind.dylib
+
+module load event: "libxpc.dylib" 0x9f7a6000-0xac6b4000 modid: 44 /usr/lib/system/libxpc.dylib
+WARNING: unhandled system calls found
+
+DUPLICATE ERROR COUNTS:
+
+SUPPRESSIONS USED:
+
+NO ERRORS FOUND:
+      0 unique,     0 total unaddressable access(es)
+      0 unique,     0 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total warning(s)
+      0 unique,     0 total,      0 byte(s) of leak(s)
+      0 unique,     0 total,      0 byte(s) of possible leak(s)
+Details: /Users/Ulysses_Hu/Desktop/DrMemory-MacOS-1.11.0-2/drmemory/logs/DrMemory-test.exe.8919.000/results.txt
+
+DUPLICATE POTENTIAL ERROR COUNTS:
+
+NO POTENTIAL ERRORS FOUND:
+      0 unique,     0 total potential unaddressable access(es)
+      0 unique,     0 total potential uninitialized access(es)
+      0 unique,     0 total potential invalid heap argument(s)
+      0 unique,     0 total potential warning(s)
+      0 unique,     0 total,      0 byte(s) of potential leak(s)
+      0 unique,     0 total,      0 byte(s) of potential possible leak(s)
+Details: /Users/Ulysses_Hu/Desktop/DrMemory-MacOS-1.11.0-2/drmemory/logs/DrMemory-test.exe.8919.000/potential_errors.txt
+Exiting m0:00:00.000 in thread 5405931
+LOG END

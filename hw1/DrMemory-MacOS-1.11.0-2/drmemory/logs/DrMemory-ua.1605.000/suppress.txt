@@ -1,0 +1,62 @@
+# File for suppressing errors found in pid 1605: "ua"
+
+# Suppression for Error #1
+LEAK
+name=Error #1 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_operator_new_array
+ua!UndoArray<>::create
+ua!UndoArray<>::UndoArray
+ua!UndoArray<>::UndoArray
+ua!SimpleTests
+ua!main
+
+## Mod+offs-style suppression for Error #1:
+LEAK
+name=Error #1 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0x31b00>
+<ua+0x6b16>
+<ua+0x6ac4>
+<ua+0x27c4>
+<ua+0xb70>
+<ua+0xa13>
+
+# Suppression for Error #2
+POSSIBLE LEAK
+name=Error #2 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_operator_new_array
+ua!UndoArray<>::create
+ua!UndoArray<>::UndoArray
+ua!UndoArray<>::UndoArray
+ua!SimpleTests
+ua!main
+
+## Mod+offs-style suppression for Error #2:
+POSSIBLE LEAK
+name=Error #2 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0x31b00>
+<ua+0x6b79>
+<ua+0x6ac4>
+<ua+0x27c4>
+<ua+0xb70>
+<ua+0xa13>
+
+# Suppression for Error #3
+LEAK
+name=Error #3 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_operator_new_array
+ua!UndoArray<>::create
+ua!UndoArray<>::UndoArray
+ua!UndoArray<>::UndoArray
+ua!SimpleTests
+ua!main
+
+## Mod+offs-style suppression for Error #3:
+LEAK
+name=Error #3 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0x31b00>
+<ua+0x6ba5>
+<ua+0x6ac4>
+<ua+0x27c4>
+<ua+0xb70>
+<ua+0xa13>
+

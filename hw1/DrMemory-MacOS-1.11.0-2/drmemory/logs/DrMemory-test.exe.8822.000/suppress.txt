@@ -1,0 +1,16 @@
+# File for suppressing errors found in pid 8822: "test.exe"
+
+# Suppression for Error #1
+POSSIBLE LEAK
+name=Error #1 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_operator_new_array
+test.exe!file_operations
+test.exe!main
+
+## Mod+offs-style suppression for Error #1:
+POSSIBLE LEAK
+name=Error #1 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0x31b00>
+<test.exe+0x5be8>
+<test.exe+0xaaa0>
+

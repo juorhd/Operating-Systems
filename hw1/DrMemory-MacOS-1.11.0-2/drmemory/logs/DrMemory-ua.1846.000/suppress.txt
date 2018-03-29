@@ -1,0 +1,42 @@
+# File for suppressing errors found in pid 1846: "ua"
+
+# Suppression for Error #1
+POSSIBLE LEAK
+name=Error #1 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_operator_new_array
+ua!UndoArray<>::create
+ua!UndoArray<>::UndoArray
+ua!UndoArray<>::UndoArray
+ua!SimpleTests
+ua!main
+
+## Mod+offs-style suppression for Error #1:
+POSSIBLE LEAK
+name=Error #1 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0x31b00>
+<ua+0x6ae6>
+<ua+0x6a94>
+<ua+0x2744>
+<ua+0xaf0>
+<ua+0x993>
+
+# Suppression for Error #2
+POSSIBLE LEAK
+name=Error #2 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_operator_new_array
+ua!UndoArray<>::create
+ua!UndoArray<>::UndoArray
+ua!UndoArray<>::UndoArray
+ua!SimpleTests
+ua!main
+
+## Mod+offs-style suppression for Error #2:
+POSSIBLE LEAK
+name=Error #2 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0x31b00>
+<ua+0x6b49>
+<ua+0x6a94>
+<ua+0x2744>
+<ua+0xaf0>
+<ua+0x993>
+

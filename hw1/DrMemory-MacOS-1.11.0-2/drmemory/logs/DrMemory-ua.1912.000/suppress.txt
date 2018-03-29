@@ -1,0 +1,62 @@
+# File for suppressing errors found in pid 1912: "ua"
+
+# Suppression for Error #1
+UNINITIALIZED READ
+name=Error #1 (update to meaningful name)
+ua!UndoArray<>::delete_
+ua!UndoArray<>::operator=
+ua!UndoArray<>::UndoArray
+ua!UndoArray<>::UndoArray
+ua!SimpleTests
+ua!main
+
+## Mod+offs-style suppression for Error #1:
+UNINITIALIZED READ
+name=Error #1 (update to meaningful name)
+<ua+0x6baf>
+<ua+0x2d4a>
+<ua+0x6cb4>
+<ua+0x2d04>
+<ua+0x13e4>
+<ua+0x993>
+
+# Suppression for Error #2
+UNINITIALIZED READ
+name=Error #2 (update to meaningful name)
+ua!UndoArray<>::delete_
+ua!UndoArray<>::operator=
+ua!UndoArray<>::UndoArray
+ua!UndoArray<>::UndoArray
+ua!SimpleTests
+ua!main
+
+## Mod+offs-style suppression for Error #2:
+UNINITIALIZED READ
+name=Error #2 (update to meaningful name)
+<ua+0x6c0b>
+<ua+0x2d4a>
+<ua+0x6cb4>
+<ua+0x2d04>
+<ua+0x13e4>
+<ua+0x993>
+
+# Suppression for Error #3
+UNINITIALIZED READ
+name=Error #3 (update to meaningful name)
+ua!UndoArray<>::delete_
+ua!UndoArray<>::operator=
+ua!UndoArray<>::UndoArray
+ua!UndoArray<>::UndoArray
+ua!SimpleTests
+ua!main
+
+## Mod+offs-style suppression for Error #3:
+UNINITIALIZED READ
+name=Error #3 (update to meaningful name)
+<ua+0x6c28>
+<ua+0x2d4a>
+<ua+0x6cb4>
+<ua+0x2d04>
+<ua+0x13e4>
+<ua+0x993>
+

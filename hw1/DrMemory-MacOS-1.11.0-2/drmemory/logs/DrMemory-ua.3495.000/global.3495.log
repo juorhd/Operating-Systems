@@ -1,0 +1,387 @@
+process=3495, parent=2966
+Dr. Memory version 1.11.0 build 2 built on Aug 29 2016 02:37:30
+start time: 3644358:15:10.271 == 06:15:10.271 09/30/1260816
+Recorded 3 suppression(s) from default /Users/Ulysses_Hu/Desktop/DrMemory-MacOS-1.11.0-2/bin/suppress-default.txt
+new thread #0 id=3561015
+
+module load event: "ua" 0x00087000-0x00095000 modid: 1 /Users/Ulysses_Hu/Desktop/DrMemory-MacOS-1.11.0-2/bin/ua
+
+module load event: "libdrpreload.dylib" 0x00098000-0x000a9000 modid: 2 /Users/Ulysses_Hu/Desktop/DrMemory-MacOS-1.11.0-2/dynamorio/lib32/release/libdrpreload.dylib
+
+module load event: "libdynamorio.dylib" 0x000ac000-0x00243000 modid: 3 /Users/Ulysses_Hu/Desktop/DrMemory-MacOS-1.11.0-2/dynamorio/lib32/release/libdynamorio.dylib
+
+module load event: "libdrmemorylib.1.11.0.dylib" 0x0045d000-0x005ce000 modid: 4 /Users/Ulysses_Hu/Desktop/DrMemory-MacOS-1.11.0-2/bin/release/libdrmemorylib.1.11.0.dylib
+
+module load event: "dyld" 0x8fe09000-0x8fe7f000 modid: 5 /usr/lib/dyld
+WARNING: assuming operator new is non-placement in dyld @0x8fe287e0
+WARNING: assuming operator new[] is non-placement in dyld @0x8fe28856
+
+module load event: "libsystem_coreservices.dylib" 0x90075000-0xab995000 modid: 6 /usr/lib/system/libsystem_coreservices.dylib
+
+module load event: "libunc.dylib" 0x901cb000-0xab995000 modid: 7 /usr/lib/system/libunc.dylib
+
+module load event: "libmacho.dylib" 0x90247000-0xab995000 modid: 8 /usr/lib/system/libmacho.dylib
+
+module load event: "libsystem_configuration.dylib" 0x90251000-0xab995000 modid: 9 /usr/lib/system/libsystem_configuration.dylib
+
+module load event: "libsystem_c.dylib" 0x90879000-0xab995000 modid: 10 /usr/lib/system/libsystem_c.dylib
+
+module load event: "libsystem_secinit.dylib" 0x91712000-0xab995000 modid: 11 /usr/lib/system/libsystem_secinit.dylib
+
+module load event: "libc++.1.dylib" 0x932ec000-0xab995000 modid: 12 /usr/lib/libc++.1.dylib
+WARNING: assuming operator new is non-placement in libc++.1.dylib @0x9332ae30
+WARNING: assuming operator new is non-placement in libc++.1.dylib @0x9332ae9d
+WARNING: assuming operator new[] is non-placement in libc++.1.dylib @0x9332aed6
+WARNING: assuming operator new[] is non-placement in libc++.1.dylib @0x9332aedf
+
+module load event: "libsystem_blocks.dylib" 0x9369b000-0xab995000 modid: 13 /usr/lib/system/libsystem_blocks.dylib
+
+module load event: "libcommonCrypto.dylib" 0x93ad6000-0xab995000 modid: 14 /usr/lib/system/libcommonCrypto.dylib
+
+module load event: "libsystem_m.dylib" 0x93d71000-0xab995000 modid: 15 /usr/lib/system/libsystem_m.dylib
+
+module load event: "libsystem_malloc.dylib" 0x95f05000-0xab995000 modid: 16 /usr/lib/system/libsystem_malloc.dylib
+
+module load event: "libsystem_platform.dylib" 0x96016000-0xab995000 modid: 17 /usr/lib/system/libsystem_platform.dylib
+
+module load event: "libcache.dylib" 0x96021000-0xab995000 modid: 18 /usr/lib/system/libcache.dylib
+
+module load event: "libsystem_network.dylib" 0x96075000-0xab995000 modid: 19 /usr/lib/system/libsystem_network.dylib
+
+module load event: "libcompiler_rt.dylib" 0x96d45000-0xab995000 modid: 20 /usr/lib/system/libcompiler_rt.dylib
+
+module load event: "libcorecrypto.dylib" 0x973ff000-0xab995000 modid: 21 /usr/lib/system/libcorecrypto.dylib
+
+module load event: "libc++abi.dylib" 0x976fa000-0xab995000 modid: 22 /usr/lib/libc++abi.dylib
+WARNING: assuming operator new is non-placement in libc++abi.dylib @0x97718dd0
+WARNING: assuming operator new is non-placement in libc++abi.dylib @0x97718e3b
+WARNING: assuming operator new[] is non-placement in libc++abi.dylib @0x97718e74
+WARNING: assuming operator new[] is non-placement in libc++abi.dylib @0x97718e79
+
+module load event: "liblaunch.dylib" 0x978d5000-0xab995000 modid: 23 /usr/lib/system/liblaunch.dylib
+
+module load event: "libsystem_networkextension.dylib" 0x978d6000-0xab995000 modid: 24 /usr/lib/system/libsystem_networkextension.dylib
+
+module load event: "libsystem_info.dylib" 0x979cc000-0xab995000 modid: 25 /usr/lib/system/libsystem_info.dylib
+
+module load event: "libquarantine.dylib" 0x97acd000-0xab995000 modid: 26 /usr/lib/system/libquarantine.dylib
+
+module load event: "libsystem_sandbox.dylib" 0x97c01000-0xab995000 modid: 27 /usr/lib/system/libsystem_sandbox.dylib
+
+module load event: "libremovefile.dylib" 0x986fd000-0xab995000 modid: 28 /usr/lib/system/libremovefile.dylib
+
+module load event: "libdyld.dylib" 0x99eba000-0xab995000 modid: 29 /usr/lib/system/libdyld.dylib
+
+module load event: "libSystem.B.dylib" 0x9a71a000-0xab995000 modid: 30 /usr/lib/libSystem.B.dylib
+
+module load event: "libsystem_kernel.dylib" 0x9ad2f000-0xab995000 modid: 31 /usr/lib/system/libsystem_kernel.dylib
+
+module load event: "libxpc.dylib" 0x9af56000-0xab995000 modid: 32 /usr/lib/system/libxpc.dylib
+
+module load event: "libunwind.dylib" 0x9b3cd000-0xab995000 modid: 33 /usr/lib/system/libunwind.dylib
+
+module load event: "libsystem_coretls.dylib" 0x9b658000-0xab995000 modid: 34 /usr/lib/system/libsystem_coretls.dylib
+
+module load event: "libsystem_notify.dylib" 0x9cf62000-0xab995000 modid: 35 /usr/lib/system/libsystem_notify.dylib
+
+module load event: "libdispatch.dylib" 0x9cf6d000-0xab995000 modid: 36 /usr/lib/system/libdispatch.dylib
+
+module load event: "libsystem_trace.dylib" 0x9d520000-0xab995000 modid: 37 /usr/lib/system/libsystem_trace.dylib
+
+module load event: "libkeymgr.dylib" 0x9dc0e000-0xab995000 modid: 38 /usr/lib/system/libkeymgr.dylib
+
+module load event: "libsystem_dnssd.dylib" 0x9e2fe000-0xab995000 modid: 39 /usr/lib/system/libsystem_dnssd.dylib
+
+module load event: "libcopyfile.dylib" 0x9e30a000-0xab995000 modid: 40 /usr/lib/system/libcopyfile.dylib
+
+module load event: "libsystem_asl.dylib" 0x9e588000-0xab995000 modid: 41 /usr/lib/system/libsystem_asl.dylib
+
+module load event: "libsystem_pthread.dylib" 0x9e629000-0xab995000 modid: 42 /usr/lib/system/libsystem_pthread.dylib
+WARNING: unhandled system calls found
+
+Error #1: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_simple_salloc           (0x96018c19 <libsystem_platform.dylib+0x2c19>) modid:17
+# 1 libsystem_c.dylib!__assert_rtn      (0x9089ff88 <libsystem_c.dylib+0x26f88>) modid:10
+# 2 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 3 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #2: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_simple_salloc           (0x96018c1e <libsystem_platform.dylib+0x2c1e>) modid:17
+# 1 libsystem_c.dylib!__assert_rtn      (0x9089ff88 <libsystem_c.dylib+0x26f88>) modid:10
+# 2 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 3 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #3: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_simple_salloc           (0x96018c2a <libsystem_platform.dylib+0x2c2a>) modid:17
+# 1 libsystem_c.dylib!__assert_rtn      (0x9089ff88 <libsystem_c.dylib+0x26f88>) modid:10
+# 2 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 3 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #4: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_simple_salloc           (0x96018c36 <libsystem_platform.dylib+0x2c36>) modid:17
+# 1 libsystem_c.dylib!__assert_rtn      (0x9089ff88 <libsystem_c.dylib+0x26f88>) modid:10
+# 2 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 3 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #5: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!setjmp                   (0x960185c9 <libsystem_platform.dylib+0x25c9>) modid:17
+# 1 libsystem_platform.dylib!_simple_vesprintf        (0x96018c89 <libsystem_platform.dylib+0x2c89>) modid:17
+# 2 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 3 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 4 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 5 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #6: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!setjmp                   (0x960185e7 <libsystem_platform.dylib+0x25e7>) modid:17
+# 1 libsystem_platform.dylib!_simple_vesprintf        (0x96018c89 <libsystem_platform.dylib+0x2c89>) modid:17
+# 2 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 3 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 4 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 5 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #7: UNADDRESSABLE ACCESS: writing 2 byte(s)
+# 0 libsystem_platform.dylib!_setjmp                  (0x96018658 <libsystem_platform.dylib+0x2658>) modid:17
+# 1 libsystem_platform.dylib!_simple_vesprintf        (0x96018c89 <libsystem_platform.dylib+0x2c89>) modid:17
+# 2 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 3 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 4 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 5 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #8: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_setjmp                  (0x9601865a <libsystem_platform.dylib+0x265a>) modid:17
+# 1 libsystem_platform.dylib!_simple_vesprintf        (0x96018c89 <libsystem_platform.dylib+0x2c89>) modid:17
+# 2 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 3 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 4 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 5 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #9: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_setjmp                  (0x9601865e <libsystem_platform.dylib+0x265e>) modid:17
+# 1 libsystem_platform.dylib!_simple_vesprintf        (0x96018c89 <libsystem_platform.dylib+0x2c89>) modid:17
+# 2 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 3 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 4 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 5 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #10: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_setjmp                  (0x96018661 <libsystem_platform.dylib+0x2661>) modid:17
+# 1 libsystem_platform.dylib!_simple_vesprintf        (0x96018c89 <libsystem_platform.dylib+0x2c89>) modid:17
+# 2 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 3 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 4 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 5 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #11: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_setjmp                  (0x96018664 <libsystem_platform.dylib+0x2664>) modid:17
+# 1 libsystem_platform.dylib!_simple_vesprintf        (0x96018c89 <libsystem_platform.dylib+0x2c89>) modid:17
+# 2 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 3 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 4 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 5 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #12: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_setjmp                  (0x96018667 <libsystem_platform.dylib+0x2667>) modid:17
+# 1 libsystem_platform.dylib!_simple_vesprintf        (0x96018c89 <libsystem_platform.dylib+0x2c89>) modid:17
+# 2 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 3 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 4 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 5 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #13: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_setjmp                  (0x9601866d <libsystem_platform.dylib+0x266d>) modid:17
+# 1 libsystem_platform.dylib!_simple_vesprintf        (0x96018c89 <libsystem_platform.dylib+0x2c89>) modid:17
+# 2 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 3 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 4 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 5 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #14: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!_setjmp                  (0x96018674 <libsystem_platform.dylib+0x2674>) modid:17
+# 1 libsystem_platform.dylib!_simple_vesprintf        (0x96018c89 <libsystem_platform.dylib+0x2c89>) modid:17
+# 2 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 3 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 4 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 5 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #15: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf         (0x96018d5a <libsystem_platform.dylib+0x2d5a>) modid:17
+# 1 libsystem_platform.dylib!_simple_vesprintf        (0x96018cab <libsystem_platform.dylib+0x2cab>) modid:17
+# 2 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 3 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 4 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 5 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #16: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf         (0x96018d5d <libsystem_platform.dylib+0x2d5d>) modid:17
+# 1 libsystem_platform.dylib!_simple_vesprintf        (0x96018cab <libsystem_platform.dylib+0x2cab>) modid:17
+# 2 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 3 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 4 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 5 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #17: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf         (0x96018d72 <libsystem_platform.dylib+0x2d72>) modid:17
+# 1 libsystem_platform.dylib!_simple_vesprintf        (0x96018cab <libsystem_platform.dylib+0x2cab>) modid:17
+# 2 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 3 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 4 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 5 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #18: UNADDRESSABLE ACCESS: writing 1 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf         (0x96018d75 <libsystem_platform.dylib+0x2d75>) modid:17
+# 1 libsystem_platform.dylib!_simple_vesprintf        (0x96018cab <libsystem_platform.dylib+0x2cab>) modid:17
+# 2 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 3 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 4 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 5 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #19: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf         (0x96018fed <libsystem_platform.dylib+0x2fed>) modid:17
+# 1 libsystem_platform.dylib!_simple_vesprintf        (0x96018cab <libsystem_platform.dylib+0x2cab>) modid:17
+# 2 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 3 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 4 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 5 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #20: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf         (0x96018ff0 <libsystem_platform.dylib+0x2ff0>) modid:17
+# 1 libsystem_platform.dylib!_simple_vesprintf        (0x96018cab <libsystem_platform.dylib+0x2cab>) modid:17
+# 2 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 3 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 4 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 5 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #21: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf         (0x96018f8f <libsystem_platform.dylib+0x2f8f>) modid:17
+# 1 libsystem_platform.dylib!_simple_vesprintf        (0x96018cab <libsystem_platform.dylib+0x2cab>) modid:17
+# 2 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 3 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 4 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 5 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #22: UNADDRESSABLE ACCESS: writing 1 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf         (0x96018f95 <libsystem_platform.dylib+0x2f95>) modid:17
+# 1 libsystem_platform.dylib!_simple_vesprintf        (0x96018cab <libsystem_platform.dylib+0x2cab>) modid:17
+# 2 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 3 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 4 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 5 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #23: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!dec                      (0x96019f53 <libsystem_platform.dylib+0x3f53>) modid:17
+# 1 libsystem_platform.dylib!__simple_bprintf         (0x9601932b <libsystem_platform.dylib+0x332b>) modid:17
+# 2 libsystem_platform.dylib!_simple_vesprintf        (0x96018cab <libsystem_platform.dylib+0x2cab>) modid:17
+# 3 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 4 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 5 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 6 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #24: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!dec                      (0x96019f56 <libsystem_platform.dylib+0x3f56>) modid:17
+# 1 libsystem_platform.dylib!__simple_bprintf         (0x9601932b <libsystem_platform.dylib+0x332b>) modid:17
+# 2 libsystem_platform.dylib!_simple_vesprintf        (0x96018cab <libsystem_platform.dylib+0x2cab>) modid:17
+# 3 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 4 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 5 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 6 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #25: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!dec                      (0x96019eff <libsystem_platform.dylib+0x3eff>) modid:17
+# 1 libsystem_platform.dylib!__simple_bprintf         (0x9601932b <libsystem_platform.dylib+0x332b>) modid:17
+# 2 libsystem_platform.dylib!_simple_vesprintf        (0x96018cab <libsystem_platform.dylib+0x2cab>) modid:17
+# 3 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 4 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 5 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 6 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #26: UNADDRESSABLE ACCESS: writing 1 byte(s)
+# 0 libsystem_platform.dylib!dec                      (0x96019f02 <libsystem_platform.dylib+0x3f02>) modid:17
+# 1 libsystem_platform.dylib!__simple_bprintf         (0x9601932b <libsystem_platform.dylib+0x332b>) modid:17
+# 2 libsystem_platform.dylib!_simple_vesprintf        (0x96018cab <libsystem_platform.dylib+0x2cab>) modid:17
+# 3 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 4 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 5 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 6 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #27: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf         (0x96019393 <libsystem_platform.dylib+0x3393>) modid:17
+# 1 libsystem_platform.dylib!_simple_vesprintf        (0x96018cab <libsystem_platform.dylib+0x2cab>) modid:17
+# 2 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 3 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 4 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 5 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #28: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf         (0x96019396 <libsystem_platform.dylib+0x3396>) modid:17
+# 1 libsystem_platform.dylib!_simple_vesprintf        (0x96018cab <libsystem_platform.dylib+0x2cab>) modid:17
+# 2 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 3 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 4 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 5 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #29: UNADDRESSABLE ACCESS: writing 4 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf         (0x960193ab <libsystem_platform.dylib+0x33ab>) modid:17
+# 1 libsystem_platform.dylib!_simple_vesprintf        (0x96018cab <libsystem_platform.dylib+0x2cab>) modid:17
+# 2 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 3 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 4 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 5 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #30: UNADDRESSABLE ACCESS: writing 1 byte(s)
+# 0 libsystem_platform.dylib!__simple_bprintf         (0x960193ae <libsystem_platform.dylib+0x33ae>) modid:17
+# 1 libsystem_platform.dylib!_simple_vesprintf        (0x96018cab <libsystem_platform.dylib+0x2cab>) modid:17
+# 2 libsystem_platform.dylib!_simple_sprintf          (0x96018c6d <libsystem_platform.dylib+0x2c6d>) modid:17
+# 3 libsystem_c.dylib!__assert_rtn      (0x9089fff2 <libsystem_c.dylib+0x26ff2>) modid:10
+# 4 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 5 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #31: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!_simple_string           (0x960197b2 <libsystem_platform.dylib+0x37b2>) modid:17
+# 1 libsystem_c.dylib!__assert_rtn      (0x9089fffa <libsystem_c.dylib+0x26ffa>) modid:10
+# 2 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 3 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #32: UNADDRESSABLE ACCESS: writing 1 byte(s)
+# 0 libsystem_platform.dylib!_simple_string           (0x960197b5 <libsystem_platform.dylib+0x37b5>) modid:17
+# 1 libsystem_c.dylib!__assert_rtn      (0x9089fffa <libsystem_c.dylib+0x26ffa>) modid:10
+# 2 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 3 main (0x00087e63 <ua+0xe63>) modid:1
+	error end
+
+Error #33: UNADDRESSABLE ACCESS: reading 4 byte(s)
+# 0 libsystem_platform.dylib!_simple_string           (0x960197b8 <libsystem_platform.dylib+0x37b8>) modid:17
+# 1 libsystem_c.dylib!__assert_rtn      (0x9089fffa <libsystem_c.dylib+0x26ffa>) modid:10
+# 2 SimpleTests (0x00088bad <ua+0x1bad>) modid:1
+# 3 main (0x00087e63 <ua+0xe63>) modid:1
+	error end

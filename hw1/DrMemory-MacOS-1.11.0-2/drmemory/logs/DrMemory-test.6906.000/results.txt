@@ -1,0 +1,39 @@
+Dr. Memory version 1.11.0 build 2 built on Aug 29 2016 02:37:30
+Dr. Memory results for pid 6906: "test"
+Recorded 3 suppression(s) from default /Users/Ulysses_Hu/Desktop/DrMemory-MacOS-1.11.0-2/bin/suppress-default.txt
+
+Error #1: UNADDRESSABLE ACCESS beyond heap bounds: reading 1 byte(s)
+# 0 Point::visit_                [/Users/Ulysses_Hu/desktop/hw6/main.cpp:20]
+# 1 Searchsolution               [/Users/Ulysses_Hu/desktop/hw6/main.cpp:130]
+# 2 Searchsolution               [/Users/Ulysses_Hu/desktop/hw6/main.cpp:131]
+# 3 Searchsolution               [/Users/Ulysses_Hu/desktop/hw6/main.cpp:131]
+# 4 Searchsolution               [/Users/Ulysses_Hu/desktop/hw6/main.cpp:131]
+# 5 Searchsolution               [/Users/Ulysses_Hu/desktop/hw6/main.cpp:131]
+# 6 Searchsolution               [/Users/Ulysses_Hu/desktop/hw6/main.cpp:131]
+# 7 main                         [/Users/Ulysses_Hu/desktop/hw6/main.cpp:207]
+
+Error #2: UNADDRESSABLE ACCESS beyond heap bounds: writing 1 byte(s)
+# 0 Point::setvisit               [/Users/Ulysses_Hu/desktop/hw6/main.cpp:22]
+# 1 Searchsolution                [/Users/Ulysses_Hu/desktop/hw6/main.cpp:134]
+# 2 Searchsolution                [/Users/Ulysses_Hu/desktop/hw6/main.cpp:131]
+# 3 Searchsolution                [/Users/Ulysses_Hu/desktop/hw6/main.cpp:131]
+# 4 Searchsolution                [/Users/Ulysses_Hu/desktop/hw6/main.cpp:131]
+# 5 Searchsolution                [/Users/Ulysses_Hu/desktop/hw6/main.cpp:131]
+# 6 Searchsolution                [/Users/Ulysses_Hu/desktop/hw6/main.cpp:131]
+# 7 main                          [/Users/Ulysses_Hu/desktop/hw6/main.cpp:207]
+Note: refers to 13 byte(s) beyond memory that was freed here:
+Note: # 0 replace_operator_delete    
+Note: # 1 std::__1::__split_buffer<>::~__split_buffer               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/new:176]
+Note: # 2 std::__1::__split_buffer<>::~__split_buffer               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__split_buffer:335]
+Note: # 3 std::__1::vector<>::__push_back_slow_path<>               [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1576]
+Note: # 4 Pathsearch                                                [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:1592]
+Note: # 5 Pathsearch                                                [/Users/Ulysses_Hu/desktop/hw6/main.cpp:97]
+
+Error #3: UNINITIALIZED READ: reading register ecx
+# 0 Searchsolution               [/Users/Ulysses_Hu/desktop/hw6/main.cpp:118]
+# 1 Searchsolution               [/Users/Ulysses_Hu/desktop/hw6/main.cpp:131]
+# 2 Searchsolution               [/Users/Ulysses_Hu/desktop/hw6/main.cpp:131]
+# 3 Searchsolution               [/Users/Ulysses_Hu/desktop/hw6/main.cpp:131]
+# 4 Searchsolution               [/Users/Ulysses_Hu/desktop/hw6/main.cpp:131]
+# 5 Searchsolution               [/Users/Ulysses_Hu/desktop/hw6/main.cpp:131]
+# 6 main                         [/Users/Ulysses_Hu/desktop/hw6/main.cpp:207]

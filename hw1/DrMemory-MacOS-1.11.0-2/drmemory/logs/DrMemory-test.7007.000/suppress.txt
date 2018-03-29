@@ -1,0 +1,98 @@
+# File for suppressing errors found in pid 7007: "test"
+
+# Suppression for Error #1
+UNADDRESSABLE ACCESS
+name=Error #1 (update to meaningful name)
+test!Point::visit_
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+
+## Mod+offs-style suppression for Error #1:
+UNADDRESSABLE ACCESS
+name=Error #1 (update to meaningful name)
+<test+0x5fcd>
+<test+0x33a3>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+
+# Suppression for Error #2
+UNADDRESSABLE ACCESS
+name=Error #2 (update to meaningful name)
+test!Point::setvisit
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+
+## Mod+offs-style suppression for Error #2:
+UNADDRESSABLE ACCESS
+name=Error #2 (update to meaningful name)
+<test+0x5ffc>
+<test+0x362a>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+<test+0x3495>
+

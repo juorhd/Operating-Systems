@@ -1,0 +1,35 @@
+Dr. Memory version 1.11.0 build 2 built on Aug 29 2016 02:37:30
+Dr. Memory results for pid 27657: "test"
+Recorded 3 suppression(s) from default /Users/Ulysses_Hu/Desktop/DrMemory-MacOS-1.11.0-2/bin/suppress-default.txt
+
+Error #1: LEAK 20 direct bytes + 228 indirect bytes
+# 0 replace_operator_new       
+# 1 main                               [/Users/Ulysses_Hu/desktop/lab14_/main_smart_pointers.cpp:140]
+
+Error #2: LEAK 40 direct bytes + 20 indirect bytes
+# 0 replace_operator_new_array 
+# 1 Balloon::Balloon                         [/Users/Ulysses_Hu/desktop/lab14_/main_smart_pointers.cpp:21]
+# 2 Balloon::Balloon                         [/Users/Ulysses_Hu/desktop/lab14_/main_smart_pointers.cpp:18]
+# 3 main                                     [/Users/Ulysses_Hu/desktop/lab14_/main_smart_pointers.cpp:144]
+
+Error #3: POSSIBLE LEAK 40 bytes 
+# 0 replace_operator_new_array 
+# 1 Balloon::Balloon                         [/Users/Ulysses_Hu/desktop/lab14_/main_smart_pointers.cpp:21]
+# 2 Balloon::Balloon                         [/Users/Ulysses_Hu/desktop/lab14_/main_smart_pointers.cpp:18]
+# 3 main                                     [/Users/Ulysses_Hu/desktop/lab14_/main_smart_pointers.cpp:149]
+
+===========================================================================
+FINAL SUMMARY:
+
+DUPLICATE ERROR COUNTS:
+
+SUPPRESSIONS USED:
+
+ERRORS FOUND:
+      0 unique,     0 total unaddressable access(es)
+      0 unique,     0 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total warning(s)
+      2 unique,     2 total,    308 byte(s) of leak(s)
+      1 unique,     1 total,     40 byte(s) of possible leak(s)
+Details: /Users/Ulysses_Hu/Desktop/DrMemory-MacOS-1.11.0-2/drmemory/logs/DrMemory-test.27657.000/results.txt

@@ -1,0 +1,44 @@
+# File for suppressing errors found in pid 8701: "test.exe"
+
+# Suppression for Error #1
+UNADDRESSABLE ACCESS
+name=Error #1 (update to meaningful name)
+test.exe!vector_compare
+test.exe!vector_operations
+test.exe!main
+
+## Mod+offs-style suppression for Error #1:
+UNADDRESSABLE ACCESS
+name=Error #1 (update to meaningful name)
+<test.exe+0x4e68>
+<test.exe+0x3ce5>
+<test.exe+0xae01>
+
+# Suppression for Error #2
+UNADDRESSABLE ACCESS
+name=Error #2 (update to meaningful name)
+test.exe!vector_compare
+test.exe!vector_operations
+test.exe!main
+
+## Mod+offs-style suppression for Error #2:
+UNADDRESSABLE ACCESS
+name=Error #2 (update to meaningful name)
+<test.exe+0x4e68>
+<test.exe+0x3e08>
+<test.exe+0xae01>
+
+# Suppression for Error #3
+POSSIBLE LEAK
+name=Error #3 (update to meaningful name)
+libdrmemorylib.1.11.0.dylib!replace_operator_new_array
+test.exe!file_operations
+test.exe!main
+
+## Mod+offs-style suppression for Error #3:
+POSSIBLE LEAK
+name=Error #3 (update to meaningful name)
+<libdrmemorylib.1.11.0.dylib+0x31b00>
+<test.exe+0x5c78>
+<test.exe+0xaaa0>
+

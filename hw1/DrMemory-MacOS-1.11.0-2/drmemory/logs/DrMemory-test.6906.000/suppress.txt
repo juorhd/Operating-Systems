@@ -1,0 +1,72 @@
+# File for suppressing errors found in pid 6906: "test"
+
+# Suppression for Error #1
+UNADDRESSABLE ACCESS
+name=Error #1 (update to meaningful name)
+test!Point::visit_
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!main
+
+## Mod+offs-style suppression for Error #1:
+UNADDRESSABLE ACCESS
+name=Error #1 (update to meaningful name)
+<test+0x5fcd>
+<test+0x33a0>
+<test+0x3492>
+<test+0x3492>
+<test+0x3492>
+<test+0x3492>
+<test+0x3492>
+<test+0x56dc>
+
+# Suppression for Error #2
+UNADDRESSABLE ACCESS
+name=Error #2 (update to meaningful name)
+test!Point::setvisit
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!main
+
+## Mod+offs-style suppression for Error #2:
+UNADDRESSABLE ACCESS
+name=Error #2 (update to meaningful name)
+<test+0x5ffc>
+<test+0x3627>
+<test+0x3492>
+<test+0x3492>
+<test+0x3492>
+<test+0x3492>
+<test+0x3492>
+<test+0x56dc>
+
+# Suppression for Error #3
+UNINITIALIZED READ
+name=Error #3 (update to meaningful name)
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!Searchsolution
+test!main
+
+## Mod+offs-style suppression for Error #3:
+UNINITIALIZED READ
+name=Error #3 (update to meaningful name)
+<test+0x2a73>
+<test+0x3492>
+<test+0x3492>
+<test+0x3492>
+<test+0x3492>
+<test+0x3492>
+<test+0x56dc>
+
